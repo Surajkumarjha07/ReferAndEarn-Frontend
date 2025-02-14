@@ -61,7 +61,7 @@ export default function Home() {
                     </div>
 
                     <div className="w-full flex justify-center">
-                        <button className="text-white bg-[#1A73E8] px-8 py-2 rounded-md cursor-pointer">
+                        <button className="text-white bg-[#1A73E8] px-8 py-2 rounded-md cursor-pointer" onClick={openModal}>
                             Refer Now
                         </button>
                     </div>
