@@ -9,6 +9,9 @@ export default defineConfig({
     react()
   ],
   base: "/",
+  preview: {
+    allowedHosts: ['referandearn-frontend.onrender.com'],
+  },
   build: {
     outDir: 'dist',
   },
