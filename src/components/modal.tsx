@@ -23,7 +23,7 @@ export default function Modal({ setModal }: any) {
         }
 
         try {
-            const response = await fetch("http://localhost:4000/refer", {
+            const response = await fetch("https://referandearn-backend.onrender.com/refer", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
